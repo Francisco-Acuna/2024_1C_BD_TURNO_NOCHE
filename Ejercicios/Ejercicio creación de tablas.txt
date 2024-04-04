@@ -1,0 +1,26 @@
+-- --------------------
+-- -------- Ejercicio 1
+-- --------------------
+
+
+-- 1- Crear la tabla Facturas dentro de la base de datos con el siguiente detalle:
+
+-- Letra		char y PK
+-- Numero		int y PK
+-- Fecha		date
+-- Monto		double
+
+-- PK significa Primary Key
+-- observar que se esta declarando una clave primaria compuesta
+-- es decir (letra,codigo)
+-- cada campo por si solo no es clave, ni tampoco identifica al registro
+-- pero la suma de los dos forman la clave
+
+
+
+-- 2- Crear la tabla Articulos dentro de la base de datos con el siguiente detalle:
+
+-- Codigo		integer y PK
+-- Nombre 		varchar (50)
+-- Precio		double
+-- Stock		int
